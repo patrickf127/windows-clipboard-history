@@ -23,9 +23,11 @@
 
 https://github.com/patrickf127/windows-clipboard-history/releases
 
-下載：
+下載 Windows Portable 版本：
 
-`剪貼簿歷史_1.0.0_可攜版.exe`
+**Windows Clipboard History v1.0.0**
+
+請至 [Releases] 頁面下載最新版本。
 
 ### 執行
 
