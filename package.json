@@ -1,0 +1,36 @@
+{
+  "name": "clipboard-history",
+  "version": "1.0.0",
+  "description": "Windows 歷史剪貼簿 - 紀錄最近複製的文字和圖片",
+  "author": "使用者",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win portable"
+  },
+  "build": {
+    "appId": "com.clipboard.history",
+    "productName": "剪貼簿歷史",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "portable",
+      "icon": "icon.png",
+      "artifactName": "剪貼簿歷史_${version}_可攜版.${ext}"
+    },
+    "portable": {
+      "unpackDirName": "clipboard-history-data"
+    },
+    "asarUnpack": [
+      "node_modules/sql.js/**"
+    ]
+  },
+  "dependencies": {
+    "sql.js": "^1.11.0"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^25.0.0"
+  }
+}

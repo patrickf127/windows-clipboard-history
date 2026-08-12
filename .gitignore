@@ -1,0 +1,4 @@
+node_modules/
+clipboard_data.db
+*.db
+dist/
