@@ -1,4 +1,4 @@
-# Windows Clipboard History
+# Windows Clipboard History patrick
 
 一款以 Electron 開發的 Windows 歷史剪貼簿工具，可自動記錄使用者複製的文字與圖片，並將資料儲存在本機資料庫。
 
